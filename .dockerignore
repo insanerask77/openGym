@@ -1,0 +1,22 @@
+# Local configuration and generated application data
+.env
+.env.*
+data/
+media/
+
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+
+# Repository and local tooling
+.git/
+.gitignore
+.vscode/
+.DS_Store
+
+# Native/mobile build output
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/ios/App/Pods/
